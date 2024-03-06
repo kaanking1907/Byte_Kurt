@@ -18,5 +18,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("SettingsScene");
     }
+
+    public void LoadDepremScene()
+    {
+        SceneManager.LoadScene("DepremScene");
+    }
 }
 
