@@ -9,4 +9,9 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("MainScene");
     }
+
+    public void LoadCaptchaScene()
+    {
+        SceneManager.LoadScene("CaptchaScene");
+    }
 }
