@@ -19,5 +19,10 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("ProfileScene");
     
     }
+
+    public void LoadSettingsScene()
+    {
+        SceneManager.LoadScene("SettingsScene");
+    }
 }
 
