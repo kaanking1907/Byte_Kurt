@@ -1,5 +1,7 @@
 ﻿using UnityEngine ;
 using UnityEngine.UI ;
+using UnityEngine.SceneManagement;
+
 
 public class CaptchaUI : MonoBehaviour {
    [Header ("UI References :")]
@@ -37,6 +39,7 @@ public class CaptchaUI : MonoBehaviour {
          //valid
          uiErrorsText.gameObject.SetActive (false) ;
          Debug.Log ("<color=green>Valid Code </color>") ;
+         SceneManager.LoadScene("MainScene");
       } else {
          //invalid
          uiErrorsText.gameObject.SetActive (true) ;
