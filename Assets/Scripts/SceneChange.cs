@@ -14,4 +14,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("CaptchaScene");
     }
+
+    public void LoadProfileScene(){
+        SceneManager.LoadScene("ProfileScene");
+    
+    }
 }
+
