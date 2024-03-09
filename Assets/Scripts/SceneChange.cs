@@ -23,5 +23,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("DepremScene");
     }
+
+    public void LoadWeatherScene()
+    {
+        SceneManager.LoadScene("WeatherScene");
+    }
 }
 

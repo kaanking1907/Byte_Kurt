@@ -20,4 +20,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/DepremScene.unity
     guid: 625a09e5f684b48e79ada566c5ad36f8
+  - enabled: 1
+    path: Assets/Scenes/WeatherScene.unity
+    guid: 198fa407082a54a2da74e1ca4f4c0eb6
   m_configObjects: {}
