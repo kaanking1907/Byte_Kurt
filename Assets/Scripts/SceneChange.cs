@@ -29,5 +29,11 @@ public class SceneChange : MonoBehaviour
     {
         Application.OpenURL(URL);
     }
+
+    public string CAM;
+    public void LoadCam()
+    {
+        Application.OpenURL(CAM);
+    }
 }
 
