@@ -537,7 +537,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e33a0178ccc49ecb2d419bd6a9e30c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  URL: https://weather.com/weather/today/l/40.999191,28.862704?par=apple
+  URL: https://weather.com/weather/today/l/7912d03017522301f5c89f4f1d661d18ad10926c15063cf520ee5ec7ce7c787c
+  CAM: 
 --- !u!1 &408977812
 GameObject:
   m_ObjectHideFlags: 0
@@ -911,6 +912,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   URL: 
+  CAM: 
 --- !u!1 &1106454878
 GameObject:
   m_ObjectHideFlags: 0
@@ -923,6 +925,7 @@ GameObject:
   - component: {fileID: 1106454882}
   - component: {fileID: 1106454881}
   - component: {fileID: 1106454880}
+  - component: {fileID: 1106454883}
   m_Layer: 5
   m_Name: Cam
   m_TagString: Untagged
@@ -993,7 +996,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1106454881}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1106454883}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: LoadCam
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1106454881
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1032,6 +1047,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1106454878}
   m_CullTransparentMesh: 1
+--- !u!114 &1106454883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1106454878}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e33a0178ccc49ecb2d419bd6a9e30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URL: 
+  CAM: file:///Users/togy/Downloads/SiteTest1.html
 --- !u!1 &1109097803
 GameObject:
   m_ObjectHideFlags: 0
@@ -1219,6 +1248,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   URL: 
+  CAM: 
 --- !u!114 &1154798379
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1460,6 +1490,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   URL: 
+  CAM: 
 --- !u!1 &1263409768
 GameObject:
   m_ObjectHideFlags: 0
@@ -1983,6 +2014,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   URL: 
+  CAM: 
 --- !u!114 &1487345615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2466,7 +2498,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1e33a0178ccc49ecb2d419bd6a9e30c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  URL: https://www.google.com/maps/@41.0143842,28.871331,15z?entry=ttu
+  URL: https://www.google.com/maps
+  CAM: 
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
