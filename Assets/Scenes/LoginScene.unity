@@ -1018,6 +1018,7 @@ GameObject:
   - component: {fileID: 1035401716}
   - component: {fileID: 1035401715}
   - component: {fileID: 1035401714}
+  - component: {fileID: 1035401717}
   m_Layer: 5
   m_Name: Button
   m_TagString: Untagged
@@ -1127,6 +1128,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1035401712}
   m_CullTransparentMesh: 1
+--- !u!114 &1035401717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1035401712}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e33a0178ccc49ecb2d419bd6a9e30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URL: 
+  CAM: 
 --- !u!1 &1161839098
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1154,7 @@ GameObject:
   - component: {fileID: 1161839102}
   - component: {fileID: 1161839101}
   - component: {fileID: 1161839100}
+  - component: {fileID: 1161839103}
   m_Layer: 5
   m_Name: Giris
   m_TagString: Untagged
@@ -1209,7 +1225,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1161839101}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1161839103}
+        m_TargetAssemblyTypeName: SceneChange, Assembly-CSharp
+        m_MethodName: LoadCaptchaScene
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1161839101
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1248,6 +1276,20 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1161839098}
   m_CullTransparentMesh: 1
+--- !u!114 &1161839103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1161839098}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1e33a0178ccc49ecb2d419bd6a9e30c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  URL: 
+  CAM: 
 --- !u!1 &1272311587
 GameObject:
   m_ObjectHideFlags: 0
