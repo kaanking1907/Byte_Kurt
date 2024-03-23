@@ -24,9 +24,10 @@ public class SceneChange : MonoBehaviour
         SceneManager.LoadScene("DepremScene");
     }
 
-    public void LoadWeatherScene()
+    public string URL;
+    public void LoadURL()
     {
-        SceneManager.LoadScene("WeatherScene");
+        Application.OpenURL(URL);
     }
 }
 
