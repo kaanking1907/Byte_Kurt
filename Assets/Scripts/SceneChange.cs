@@ -34,5 +34,10 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("ForgotPassword");
     }
+    
+    public void LoadLogin()
+    {
+        SceneManager.LoadScene("LoginScene");
+    }
 }
 
