@@ -35,5 +35,10 @@ public class SceneChange : MonoBehaviour
     {
         Application.OpenURL(CAM);
     }
+
+    public void SifremiUnuttum()
+    {
+        SceneManager.LoadScene("ForgotPassword");
+    }
 }
 
