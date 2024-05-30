@@ -8,7 +8,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/LoginScene.unity
     guid: a896cc1adb8614d17932a2c6a9643565
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/CaptchaScene.unity
     guid: 6c554a9dc965b9a4fae8f9cc0ccac902
   - enabled: 1

@@ -9,32 +9,19 @@ public class SceneChange : MonoBehaviour
     {
         SceneManager.LoadScene("MainScene");
     }
-
-    public void LoadCaptchaScene()
-    {
-        SceneManager.LoadScene("CaptchaScene");
-    }
     public void LoadSettingsScene()
     {
         SceneManager.LoadScene("SettingsScene");
     }
-
-    public void LoadDepremScene()
-    {
-        SceneManager.LoadScene("DepremScene");
-    }
-
     public string URL;
     public void LoadURL()
     {
         Application.OpenURL(URL);
     }
-
     public void SifremiUnuttum()
     {
         SceneManager.LoadScene("ForgotPassword");
     }
-    
     public void LoadLogin()
     {
         SceneManager.LoadScene("LoginScene");
